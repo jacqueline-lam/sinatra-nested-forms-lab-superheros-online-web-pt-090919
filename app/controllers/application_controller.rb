@@ -18,5 +18,7 @@ class App < Sinatra::Base
     end
     
     @members = Member.all
+    
+    erb :
   end
 end
